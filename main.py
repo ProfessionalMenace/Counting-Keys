@@ -1,8 +1,8 @@
 import tkinter as tk
 import threading
-import KeysFunctions as kys
+import libraries.KeysFunctions as kys
 from PIL import Image, ImageTk
-from variables import keys, threads_list, labelLETTER1, labelLETTER, root, img_tk
+from libraries.variables import keys, threads_list, labelLETTER1, labelLETTER, root, img_tk
 
 
 
