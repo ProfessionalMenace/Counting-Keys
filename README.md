@@ -1,5 +1,5 @@
 
-This program is for counting how many keys you pressed during the day (you have to put in background, and after some hours you can check), it's not going to be a huge a project, i wanted to do that for fun.
+This program is for counting how many keys you pressed during the day (you have to put in background, and after some hours you can check), it's not going to be a huge project, i wanted to do that for fun.
 
 
 
