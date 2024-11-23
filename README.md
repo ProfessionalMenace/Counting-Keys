@@ -3,7 +3,7 @@ This program is for counting how many keys you pressed during the day (you have 
 
 
 
-( wip... 0.1, for now there are only letters )
+( wip... 0.1 )
 
 (So, i was despairing because i was trying to know how to import libraries in C++, and i wanna just chill rn, and
 python is good for chilling 👍)
