@@ -3,7 +3,6 @@ import threading
 import KeysFunctions as kys
 from PIL import Image, ImageTk
 from variables import labelCharacter1, labelCharacter, root, keys, frame, img_tk
-import cProfile
 
 def main():
   root.title("Keys Counter")
@@ -35,7 +34,5 @@ def main():
   root.mainloop()
 
 if __name__ == "__main__":
-     profiler = cProfile.Profile()
-     profiler.enable()
      main()
-     profiler.print_stats(sort='time')
+

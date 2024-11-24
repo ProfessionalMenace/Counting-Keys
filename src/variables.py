@@ -32,6 +32,7 @@ controlkeys = ["esc", "tab", "capslock", "spacebar", "enter"]
 current_time  = [[0.0 for x in _] for _ in keys]
 lastpression= [[0.0 for x in _] for _ in keys]
 lastrepeat= [[0.0 for x in _] for _ in keys]
+flag = [[True for x in _] for _ in keys ]
 print(current_time)
 print(lastpression)
 
