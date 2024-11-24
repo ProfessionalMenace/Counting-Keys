@@ -20,7 +20,7 @@ def Bfunc(index1, index2, key = 'b', labletext = None): # KEYS = the variable, #
     def key_repeat():
         global lastrepeat
         current_time[index1][index2] = time.time()
-        if (current_time[index1][index2] - lastpression[index1][index2]) >= 12 and \
+        if (current_time[index1][index2] - lastpression[index1][index2]) >= 0.5 and \
            (current_time[index1][index2] - lastrepeat[index1][index2]) >= 0.1:
             lastrepeat[index1][index2] = current_time[index1][index2]
             return True
