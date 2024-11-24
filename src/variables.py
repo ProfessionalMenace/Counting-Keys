@@ -33,7 +33,5 @@ current_time  = [[0.0 for x in _] for _ in keys]
 lastpression= [[0.0 for x in _] for _ in keys]
 lastrepeat= [[0.0 for x in _] for _ in keys]
 flag = [[True for x in _] for _ in keys ]
-print(current_time)
-print(lastpression)
 
 max_cols = max(len(row) for row in keys)

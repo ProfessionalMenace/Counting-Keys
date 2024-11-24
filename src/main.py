@@ -12,7 +12,7 @@ def main():
   root.geometry(f"{screen_width}x{screen_height}")
 
 
-  label1 = tk.Label(root, text = "keys counter ( you can put it even in background!!)")
+  label1 = tk.Label(root, text = "keys counter ( you can put it even in background!!)") 
   label1.pack()
        
   for j in range(len(keys)):

@@ -37,7 +37,7 @@ def Bfunc(index1, index2, key = 'b', labletext = None): # KEYS = the variable, #
         else:
             time.sleep(0.01)
         root.after(1500, lambda: update())
-def check(index1, index2, key = "b"):
+def check(index1, index2, key = "b"): # check for debouncing
     while True:
         if not keyboard.is_pressed(key):
             if flag[index1][index2] != True:
